@@ -13,10 +13,7 @@ const Produto = ({produto}) => {
 
                 <p>{produto.nome}</p>
 
-                <div className="compra">
-                    <button></button>
-                    <button></button>
-                </div>
+                <ButtonCart produto={produto.cod}/>
             </div>
             
         </>
