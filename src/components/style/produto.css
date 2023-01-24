@@ -11,5 +11,7 @@
 
 .card img {
     width: 85%;
-    margin: 0 auto;
+    margin: 0.5rem auto;
+    object-fit: cover;
+    aspect-ratio: 1;
 }
