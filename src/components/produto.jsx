@@ -4,12 +4,12 @@ import no_image from "./img/no-image.png"
 import "./style/produto.css"
 
 const Produto = ({produto}) => {
-    var image = require(produto.img);
+    console.log(produto.img)
 
     return ( 
         <>  
             <div className="card">
-                <img src={image || no_image} alt="Imagem do produto" />
+                <img src={produto.img || no_image} alt="Imagem do produto" />
 
                 <p>{produto.nome}</p>
             </div>
