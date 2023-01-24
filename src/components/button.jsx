@@ -1,10 +1,11 @@
 import React from 'react';
 
-const Button = ({ CodProd }) => {
-    if (CodProd) {
+const Button = ({ produto }) => {
+
+    if (produto) {
         return ( 
             <>
-                {inCart}
+                {inCart()}
             </>
          );
     }
@@ -17,5 +18,5 @@ function inCart() {
         </button>
     );
 }
- 
+
 export default Button;

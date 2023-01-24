@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './button';
 import no_image from "./img/no-image.png"
 
 
@@ -12,8 +13,8 @@ const Produto = ({produto}) => {
                 <img src={produto.img || no_image} alt={produto.nome} />
 
                 <p>{produto.nome}</p>
-
-                <ButtonCart produto={produto.cod}/>
+                
+                <Button produto={produto.cod}/>
             </div>
             
         </>
