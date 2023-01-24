@@ -19,7 +19,7 @@ function App() {
       nome: "Arroz 5Kg",
       categoria: "Grãos",
       preco: 21.80,
-      estoque: 2,
+      estoque: 3,
     },
     {
       cod: 3,
