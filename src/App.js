@@ -23,7 +23,7 @@ function App() {
     },
     {
       cod: 3,
-      img: "./images/no-image.png",
+      img: "./images/trakinas.jpg",
       nome: "Bol. Recheada Trakinas choc preto",
       categoria: "Bolachas/Biscoitos",
       preco: 3.15,
