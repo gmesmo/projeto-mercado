@@ -8,7 +8,8 @@ const Produto = ({produto}) => {
     return ( 
         <>  
             <div className="card">
-                <img src={produto.img ? require(produto.img) : no_image} />
+                <img src={produto.img || no_image} alt="Imagem do produto" />
+
                 <p>{produto.nome}</p>
             </div>
             
