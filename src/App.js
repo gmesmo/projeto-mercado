@@ -11,7 +11,7 @@ function App() {
       nome: "Óleo de Soja",
       categoria: "Óleos/Azeites",
       preco: 8.99,
-      estoque: 10,
+      estoque: 11,
     },
     {
       cod: 2,
