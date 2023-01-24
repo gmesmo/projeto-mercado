@@ -1,0 +1,7 @@
+.prod-container {
+    margin-top: 4.2rem;
+    padding: 3rem;
+
+    display: flex;
+    column-gap: 1.5rem;
+}

@@ -1,0 +1,23 @@
+.header {
+    position: fixed;
+    top: 0;
+
+    width: 100vw;
+    height: 4.2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    box-shadow: #00000010 0rem .5rem 1rem;
+}
+
+.header h2 {
+    margin: 0 auto;
+}
+
+.client {
+    position: absolute;
+    right: 2rem;
+    top: calc(4.2 / 2);
+}

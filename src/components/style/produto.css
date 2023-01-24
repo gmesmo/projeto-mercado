@@ -1,0 +1,15 @@
+
+
+.card {
+    width: 13rem;
+    height: 18rem;
+    
+    box-shadow: #00000073 0rem 0rem 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card img {
+    width: 85%;
+    margin: 0 auto;
+}
