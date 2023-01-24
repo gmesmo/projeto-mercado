@@ -4,7 +4,7 @@ import no_image from "./img/no-image.png"
 import "./style/produto.css"
 
 const Produto = ({produto}) => {
-    let image = require(produto.img);
+    var image = require(produto.img);
 
     return ( 
         <>  
