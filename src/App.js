@@ -3,6 +3,12 @@ import Header from './components/header';
 import { useState } from 'react';
 import Produtos from './components/produtos';
 
+function Cart(props) {
+  const [cart, setCart] = useState([]);
+
+  return(cart);
+}
+
 function App() {
   const [produtos, setProdutos] = useState([
     {
