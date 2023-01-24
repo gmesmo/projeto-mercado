@@ -1,7 +1,7 @@
 
 
 .card {
-    width: 13rem;
+    width: 14rem;
     height: 18rem;
     
     box-shadow: #00000073 0rem 0rem 1.5rem;
@@ -10,8 +10,8 @@
 }
 
 .card img {
-    width: 85%;
-    margin: 0.5rem auto;
+    width: 90%;
+    margin: 0.7rem auto;
     object-fit: cover;
     aspect-ratio: 1;
 }
