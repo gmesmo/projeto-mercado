@@ -1,0 +1,10 @@
+.AddButton {
+    height: 2rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background: linear-gradient(rgb(36, 175, 24), rgb(4, 116, 0));
+    border: none;
+}

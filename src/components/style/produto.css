@@ -1,12 +1,14 @@
-
-
 .card {
+    position: relative;
+
     width: 14rem;
     height: 22rem;
     
     box-shadow: #00000073 0rem 0rem 1.5rem;
     border-radius: 8px;
     text-align: center;
+
+    overflow: hidden;
 }
 
 .card img {
